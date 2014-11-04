@@ -1,6 +1,6 @@
 {
   "name": "angular-validate-directive",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "simple AngularJS validation directive",
   "main": "validate.js",
   "scripts": {
