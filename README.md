@@ -2,9 +2,16 @@
 
 An angular component for light-weight validation.
 
+Under the hood this directive uses the validator API introduced in 
+angular 1.3. See NgModelController's $validators and $asyncValidators properties:
+
+https://docs.angularjs.org/api/ng/type/ngModel.NgModelController
+
 ## Usage
 1. Include `validate.js` on your page after `angular.js`
 2. Add `dbrans.validate` as a dependency of your app.
+
+### Synchronous validation
 
 ```html
 <form name="myForm">
@@ -22,9 +29,7 @@ angular.module('yourModule')
 });
 ```
 
-## Async validation
-
-Supported by angular >= 1.3
+### Async validation
 
 ```html
 <form name="myForm">
