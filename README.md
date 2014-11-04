@@ -1,6 +1,6 @@
 # angular-validate-directive
 
-An angular component for light-weight validation.
+An angular directive for doing one-off custom validation.
 
 Under the hood this directive uses the validator API introduced in 
 angular 1.3. See NgModelController's $validators and $asyncValidators properties:
