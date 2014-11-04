@@ -17,7 +17,6 @@
     "directive"
   ],
   "author": "Derek Brans",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/dbrans/angular-validate-directive/issues"
   },
@@ -27,5 +26,9 @@
     "karma-jasmine": "^0.1.5",
     "karma-firefox-launcher": "^0.1.3",
     "karma-chrome-launcher": "^0.1.5"
-  }
+  },
+  "licenses" : [{
+    "type": "Apache",
+    "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+  }]
 }

@@ -1,3 +1,9 @@
+/*
+ * angular-validate-directive 
+ * (c) 2014 Google
+ * License: Apache 2.0
+ */
+
 'use strict';
 
 angular.module('dbrans.validate', ['ng']).
@@ -12,7 +18,7 @@ angular.module('dbrans.validate', ['ng']).
       }
     };
   }).
-  
+
   directive('dbransValidateAsync', function() {
     return {
       restrict: 'A',
